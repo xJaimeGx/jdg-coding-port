@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navigation from "./Nav";
 import About from "./About";
+import Contact from './Contact';
 
 
 function Header() {
@@ -10,6 +11,8 @@ function Header() {
     switch (currentPage) {
       case "About":
         return <About />;
+      case "Contact":
+        return <Contact />
       default:
         return <About />;
     }

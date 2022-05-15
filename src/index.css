@@ -36,3 +36,7 @@ main {
   box-sizing: border-box;
 }
 
+.profile-pic {
+  clip-path: circle();
+  width: 275px;
+}

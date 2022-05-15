@@ -10,7 +10,7 @@ function Nav(props) {
                     key={link}
                     >
                         <a href={"#" + link.toLowerCase()}
-                           onClick={() => props.handlePageChange(link)}
+                           onClick={() => props.pageHandler(link)}
                            className={props.currentPage === link ? "nav-page is-active" : "nav-page"}
                         >
                             {link}

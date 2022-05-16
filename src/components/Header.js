@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navigation from "./Nav";
 import About from "./About";
 import Contact from './Contact';
+import Portfolio from './Portfolio';
 
 
 function Header() {
@@ -12,7 +13,9 @@ function Header() {
       case "About":
         return <About />;
       case "Contact":
-        return <Contact />
+        return <Contact />;
+      case "Portfolio":
+        return <Portfolio />;
       default:
         return <About />;
     }
@@ -21,9 +24,9 @@ function Header() {
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-info">
+        <div className="navbar-brand">
           <a
-            className="navbar-gitlink"
+            className="navbar-item"
             rel="noreferrer"
             target="_blank"
             href="https://github.com/xJaimeGx?tab=repositories"

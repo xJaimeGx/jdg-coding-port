@@ -1,6 +1,6 @@
 # My REACT Portfolio
 
-## Descripyion
+## Description
 This is a new portfolio created using React. It is a SPA application
 that showcases my projects, contact info, and you can also leave me 
 your contact info along with a message.

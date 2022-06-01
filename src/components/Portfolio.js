@@ -56,6 +56,15 @@ const projects = [
     repo: "https://github.com/xJaimeGx/password-generator.git",
     live: "https://xjaimegx.github.io/jaime-g-portfolio/",
   },
+  {
+    id: 6,
+    title: "Chatterize",
+    languages: "html, css, MERN",
+    image: "/images/chatimage.png",
+    description: "An app for chatting about your favorite topics.",
+    repo: "hhttps://github.com/xJaimeGx/chatterize.git",
+    live: "https://chatterize123.herokuapp.com/",
+  },
 ];
 
 function Portfolio() {
